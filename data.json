@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-12T07:27:02Z",
+  "generated_at": "2026-08-12T07:54:10Z",
   "generated_day": "2026-08-12",
-  "source_rows": 511,
+  "source_rows": 515,
   "anonymised": true,
   "period": {
     "from": "2026-04-27",
-    "to": "2026-08-11"
+    "to": "2026-08-12"
   },
   "totals": {
-    "points": 4095,
-    "tasks": 511,
-    "paid_tasks": 315,
-    "people": 7,
+    "points": 4140,
+    "tasks": 515,
+    "paid_tasks": 319,
+    "people": 6,
     "weeks": 16,
-    "avg_week": 255.9
+    "avg_week": 258.8
   },
   "people": [
     {
-      "alias": "Сотрудник 5",
-      "points": 1100,
-      "tasks": 122,
-      "paid_tasks": 95,
+      "alias": "Assistant",
+      "points": 1125,
+      "tasks": 124,
+      "paid_tasks": 97,
       "sources": {
-        "LEO": 720,
-        "OPS": 380
+        "LEO": 725,
+        "OPS": 400
       },
       "by_week": {
         "2026-28": 150,
@@ -35,23 +35,23 @@
         "2026-30": 220,
         "2026-31": 90,
         "2026-32": 250,
-        "2026-33": 40
+        "2026-33": 65
       },
       "weeks_active": 8,
-      "avg_per_week": 137.5,
+      "avg_per_week": 140.6,
       "best_week": {
         "label": "32",
         "points": 250
       }
     },
     {
-      "alias": "Сотрудник 1",
-      "points": 1020,
-      "tasks": 177,
-      "paid_tasks": 73,
+      "alias": "AI Support",
+      "points": 1030,
+      "tasks": 178,
+      "paid_tasks": 74,
       "sources": {
         "OPS": 520,
-        "LEO": 500
+        "LEO": 510
       },
       "by_week": {
         "2026-29": 130,
@@ -69,17 +69,17 @@
         "2026-30": 120,
         "2026-31": 260,
         "2026-32": 335,
-        "2026-33": 65
+        "2026-33": 75
       },
       "weeks_active": 6,
-      "avg_per_week": 170.0,
+      "avg_per_week": 171.7,
       "best_week": {
         "label": "32",
         "points": 335
       }
     },
     {
-      "alias": "Сотрудник 6",
+      "alias": "SPA Support",
       "points": 925,
       "tasks": 73,
       "paid_tasks": 68,
@@ -103,12 +103,12 @@
       }
     },
     {
-      "alias": "Сотрудник 2",
-      "points": 760,
-      "tasks": 110,
-      "paid_tasks": 62,
+      "alias": "Konsultant",
+      "points": 770,
+      "tasks": 111,
+      "paid_tasks": 63,
       "sources": {
-        "LEO": 700,
+        "LEO": 710,
         "OPS": 60
       },
       "by_week": {
@@ -124,24 +124,29 @@
         "2026-30": 115,
         "2026-31": 165,
         "2026-32": 205,
-        "2026-33": 70
+        "2026-33": 80
       },
       "weeks_active": 7,
-      "avg_per_week": 108.6,
+      "avg_per_week": 110.0,
       "best_week": {
         "label": "32",
         "points": 205
       }
     },
     {
-      "alias": "Сотрудник 7",
+      "alias": "Coordinator + Support",
       "points": 230,
-      "tasks": 14,
+      "tasks": 18,
       "paid_tasks": 11,
       "sources": {
+        "OPS": 0,
         "LEO": 230
       },
       "by_week": {
+        "2026-23": 0,
+        "2026-19": 0,
+        "2026-18": 0,
+        "2026-20": 0,
         "2026-28": 20,
         "2026-29": 30,
         "2026-30": 50,
@@ -156,7 +161,7 @@
       }
     },
     {
-      "alias": "Сотрудник 3",
+      "alias": "Coordinator",
       "points": 60,
       "tasks": 11,
       "paid_tasks": 6,
@@ -177,27 +182,6 @@
         "label": "32",
         "points": 30
       }
-    },
-    {
-      "alias": "Сотрудник 4",
-      "points": 0,
-      "tasks": 4,
-      "paid_tasks": 0,
-      "sources": {
-        "OPS": 0
-      },
-      "by_week": {
-        "2026-23": 0,
-        "2026-19": 0,
-        "2026-18": 0,
-        "2026-20": 0
-      },
-      "weeks_active": 0,
-      "avg_per_week": 0,
-      "best_week": {
-        "label": "23",
-        "points": 0
-      }
     }
   ],
   "weeks": [
@@ -207,10 +191,10 @@
       "points": 0,
       "tasks": 33,
       "by_alias": {
-        "Сотрудник 2": 0,
-        "Сотрудник 4": 0,
-        "Сотрудник 3": 0,
-        "Сотрудник 1": 0
+        "Konsultant": 0,
+        "Coordinator + Support": 0,
+        "Coordinator": 0,
+        "AI Support": 0
       }
     },
     {
@@ -219,9 +203,9 @@
       "points": 0,
       "tasks": 13,
       "by_alias": {
-        "Сотрудник 4": 0,
-        "Сотрудник 3": 0,
-        "Сотрудник 1": 0
+        "Coordinator + Support": 0,
+        "Coordinator": 0,
+        "AI Support": 0
       }
     },
     {
@@ -230,8 +214,8 @@
       "points": 0,
       "tasks": 8,
       "by_alias": {
-        "Сотрудник 4": 0,
-        "Сотрудник 1": 0
+        "Coordinator + Support": 0,
+        "AI Support": 0
       }
     },
     {
@@ -240,7 +224,7 @@
       "points": 0,
       "tasks": 8,
       "by_alias": {
-        "Сотрудник 1": 0
+        "AI Support": 0
       }
     },
     {
@@ -249,8 +233,8 @@
       "points": 0,
       "tasks": 12,
       "by_alias": {
-        "Сотрудник 2": 0,
-        "Сотрудник 1": 0
+        "Konsultant": 0,
+        "AI Support": 0
       }
     },
     {
@@ -259,10 +243,10 @@
       "points": 0,
       "tasks": 11,
       "by_alias": {
-        "Сотрудник 2": 0,
-        "Сотрудник 4": 0,
-        "Сотрудник 3": 0,
-        "Сотрудник 1": 0
+        "Konsultant": 0,
+        "Coordinator + Support": 0,
+        "Coordinator": 0,
+        "AI Support": 0
       }
     },
     {
@@ -271,9 +255,9 @@
       "points": 0,
       "tasks": 13,
       "by_alias": {
-        "Сотрудник 5": 0,
-        "Сотрудник 2": 0,
-        "Сотрудник 1": 0
+        "Assistant": 0,
+        "Konsultant": 0,
+        "AI Support": 0
       }
     },
     {
@@ -282,9 +266,9 @@
       "points": 0,
       "tasks": 16,
       "by_alias": {
-        "Сотрудник 5": 0,
-        "Сотрудник 2": 0,
-        "Сотрудник 1": 0
+        "Assistant": 0,
+        "Konsultant": 0,
+        "AI Support": 0
       }
     },
     {
@@ -293,9 +277,9 @@
       "points": 30,
       "tasks": 25,
       "by_alias": {
-        "Сотрудник 5": 30,
-        "Сотрудник 2": 0,
-        "Сотрудник 1": 0
+        "Assistant": 30,
+        "Konsultant": 0,
+        "AI Support": 0
       }
     },
     {
@@ -304,10 +288,10 @@
       "points": 250,
       "tasks": 36,
       "by_alias": {
-        "Сотрудник 5": 150,
-        "Сотрудник 2": 10,
-        "Сотрудник 6": 90,
-        "Сотрудник 1": 0
+        "Assistant": 150,
+        "Konsultant": 10,
+        "SPA Support": 90,
+        "AI Support": 0
       }
     },
     {
@@ -316,11 +300,11 @@
       "points": 565,
       "tasks": 64,
       "by_alias": {
-        "Сотрудник 5": 150,
-        "Сотрудник 2": 85,
-        "Сотрудник 6": 200,
-        "Сотрудник 7": 20,
-        "Сотрудник 1": 110
+        "Assistant": 150,
+        "Konsultant": 85,
+        "SPA Support": 200,
+        "Coordinator + Support": 20,
+        "AI Support": 110
       }
     },
     {
@@ -329,12 +313,12 @@
       "points": 575,
       "tasks": 55,
       "by_alias": {
-        "Сотрудник 3": 20,
-        "Сотрудник 2": 110,
-        "Сотрудник 6": 115,
-        "Сотрудник 7": 30,
-        "Сотрудник 5": 170,
-        "Сотрудник 1": 130
+        "Coordinator": 20,
+        "Konsultant": 110,
+        "SPA Support": 115,
+        "Coordinator + Support": 30,
+        "Assistant": 170,
+        "AI Support": 130
       }
     },
     {
@@ -343,11 +327,11 @@
       "points": 675,
       "tasks": 50,
       "by_alias": {
-        "Сотрудник 2": 115,
-        "Сотрудник 1": 120,
-        "Сотрудник 5": 220,
-        "Сотрудник 6": 170,
-        "Сотрудник 7": 50
+        "Konsultant": 115,
+        "AI Support": 120,
+        "Assistant": 220,
+        "SPA Support": 170,
+        "Coordinator + Support": 50
       }
     },
     {
@@ -356,12 +340,12 @@
       "points": 725,
       "tasks": 60,
       "by_alias": {
-        "Сотрудник 7": 40,
-        "Сотрудник 5": 90,
-        "Сотрудник 6": 160,
-        "Сотрудник 2": 165,
-        "Сотрудник 1": 260,
-        "Сотрудник 3": 10
+        "Coordinator + Support": 40,
+        "Assistant": 90,
+        "SPA Support": 160,
+        "Konsultant": 165,
+        "AI Support": 260,
+        "Coordinator": 10
       }
     },
     {
@@ -370,41 +354,41 @@
       "points": 1100,
       "tasks": 92,
       "by_alias": {
-        "Сотрудник 1": 335,
-        "Сотрудник 6": 190,
-        "Сотрудник 2": 205,
-        "Сотрудник 5": 250,
-        "Сотрудник 7": 90,
-        "Сотрудник 3": 30
+        "AI Support": 335,
+        "SPA Support": 190,
+        "Konsultant": 205,
+        "Assistant": 250,
+        "Coordinator + Support": 90,
+        "Coordinator": 30
       }
     },
     {
       "year": 2026,
       "week": 33,
-      "points": 175,
-      "tasks": 15,
+      "points": 220,
+      "tasks": 19,
       "by_alias": {
-        "Сотрудник 2": 70,
-        "Сотрудник 1": 65,
-        "Сотрудник 5": 40
+        "Konsultant": 80,
+        "AI Support": 75,
+        "Assistant": 65
       }
     }
   ],
   "sources": {
     "LEO": {
-      "points": 3135,
-      "tasks": 390
+      "points": 3160,
+      "tasks": 393
     },
     "OPS": {
-      "points": 960,
-      "tasks": 121
+      "points": 980,
+      "tasks": 122
     }
   },
   "points_scale": {
     "0": 196,
-    "5": 85,
-    "10": 124,
-    "20": 75,
+    "5": 86,
+    "10": 126,
+    "20": 76,
     "30": 31
   }
 }
