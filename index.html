@@ -1,6 +1,6 @@
 <!doctype html>
 <!--
-  Шаблон KPI-дашборда. Данные подставляет `dashboard/build.py` вместо метки {"generated_at":"2026-08-12T11:02:54Z","generated_day":"2026-08-12","source_rows":171,"anonymised":true,"counted_since":{"year":2026,"week":31},"period":{"from":"2026-07-27","to":"2026-08-12"},"totals":{"points":2045,"tasks":171,"paid_tasks":168,"people":6,"weeks":3,"avg_week":681.7},"people":[{"alias":"AI Support","points":670,"tasks":49,"paid_tasks":48,"sources":{"LEO":190,"OPS":480},"by_week":{"2026-31":260,"2026-32":335,"2026-33":75},"weeks_active":3,"avg_per_week":223.3,"best_week":{"label":"32","points":335}},{"alias":"Konsultant","points":450,"tasks":39,"paid_tasks":39,"sources":{"LEO":390,"OPS":60},"by_week":{"2026-31":165,"2026-32":205,"2026-33":80},"weeks_active":3,"avg_per_week":150.0,"best_week":{"label":"32","points":205}},{"alias":"Assistant","points":405,"tasks":41,"paid_tasks":41,"sources":{"LEO":235,"OPS":170},"by_week":{"2026-31":90,"2026-32":250,"2026-33":65},"weeks_active":3,"avg_per_week":135.0,"best_week":{"label":"32","points":250}},{"alias":"SPA Support","points":350,"tasks":34,"paid_tasks":32,"sources":{"LEO":350,"OPS":0},"by_week":{"2026-31":160,"2026-32":190},"weeks_active":2,"avg_per_week":175.0,"best_week":{"label":"32","points":190}},{"alias":"Coordinator + Support","points":170,"tasks":8,"paid_tasks":8,"sources":{"LEO":170},"by_week":{"2026-31":50,"2026-32":120},"weeks_active":2,"avg_per_week":85.0,"best_week":{"label":"32","points":120}},{"alias":"TU Support","points":0,"tasks":0,"paid_tasks":0,"sources":{},"by_week":{},"weeks_active":0,"avg_per_week":0,"best_week":{"label":"","points":0}}],"weeks":[{"year":2026,"week":31,"points":725,"tasks":60,"by_alias":{"Coordinator + Support":50,"Assistant":90,"SPA Support":160,"Konsultant":165,"AI Support":260}},{"year":2026,"week":32,"points":1100,"tasks":92,"by_alias":{"AI Support":335,"SPA Support":190,"Konsultant":205,"Assistant":250,"Coordinator + Support":120}},{"year":2026,"week":33,"points":220,"tasks":19,"by_alias":{"Konsultant":80,"AI Support":75,"Assistant":65}}],"sources":{"LEO":{"points":1335,"tasks":124},"OPS":{"points":710,"tasks":47}},"points_scale":{"0":3,"5":61,"10":55,"20":37,"30":15}}
+  Шаблон KPI-дашборда. Данные подставляет `dashboard/build.py` вместо метки {"generated_at":"2026-08-12T12:45:42Z","generated_day":"2026-08-12","source_rows":171,"anonymised":true,"counted_since":{"year":2026,"week":31},"period":{"from":"2026-07-27","to":"2026-08-12"},"totals":{"points":2045,"tasks":171,"paid_tasks":168,"people":6,"weeks":3,"avg_week":681.7},"people":[{"alias":"AI Support","points":670,"tasks":49,"paid_tasks":48,"sources":{"LEO":190,"OPS":480},"by_week":{"2026-31":260,"2026-32":335,"2026-33":75},"weeks_active":3,"avg_per_week":223.3,"best_week":{"label":"32","points":335}},{"alias":"Konsultant","points":450,"tasks":39,"paid_tasks":39,"sources":{"LEO":390,"OPS":60},"by_week":{"2026-31":165,"2026-32":205,"2026-33":80},"weeks_active":3,"avg_per_week":150.0,"best_week":{"label":"32","points":205}},{"alias":"Assistant","points":405,"tasks":41,"paid_tasks":41,"sources":{"LEO":235,"OPS":170},"by_week":{"2026-31":90,"2026-32":250,"2026-33":65},"weeks_active":3,"avg_per_week":135.0,"best_week":{"label":"32","points":250}},{"alias":"SPA Support","points":350,"tasks":34,"paid_tasks":32,"sources":{"LEO":350,"OPS":0},"by_week":{"2026-31":160,"2026-32":190},"weeks_active":2,"avg_per_week":175.0,"best_week":{"label":"32","points":190}},{"alias":"Coordinator + Support","points":170,"tasks":8,"paid_tasks":8,"sources":{"LEO":170},"by_week":{"2026-31":50,"2026-32":120},"weeks_active":2,"avg_per_week":85.0,"best_week":{"label":"32","points":120}},{"alias":"TU Support","points":0,"tasks":0,"paid_tasks":0,"sources":{},"by_week":{},"weeks_active":0,"avg_per_week":0,"best_week":{"label":"","points":0}}],"weeks":[{"year":2026,"week":31,"points":725,"tasks":60,"by_alias":{"Coordinator + Support":50,"Assistant":90,"SPA Support":160,"Konsultant":165,"AI Support":260}},{"year":2026,"week":32,"points":1100,"tasks":92,"by_alias":{"AI Support":335,"SPA Support":190,"Konsultant":205,"Assistant":250,"Coordinator + Support":120}},{"year":2026,"week":33,"points":220,"tasks":19,"by_alias":{"Konsultant":80,"AI Support":75,"Assistant":65}}],"sources":{"LEO":{"points":1335,"tasks":124},"OPS":{"points":710,"tasks":47}},"points_scale":{"0":3,"5":61,"10":55,"20":37,"30":15}}
   (внизу, в <script type="application/json">) — руками этот файл данными не заполняют.
 
   ПРАВИЛА ЭТОГО ФАЙЛА (порт принципов из DESIGN_SYSTEM.md бота):
@@ -164,21 +164,58 @@
 
 <div id="tip" role="status" aria-live="polite"></div>
 
-<script id="dash-data" type="application/json">{"generated_at":"2026-08-12T11:02:54Z","generated_day":"2026-08-12","source_rows":171,"anonymised":true,"counted_since":{"year":2026,"week":31},"period":{"from":"2026-07-27","to":"2026-08-12"},"totals":{"points":2045,"tasks":171,"paid_tasks":168,"people":6,"weeks":3,"avg_week":681.7},"people":[{"alias":"AI Support","points":670,"tasks":49,"paid_tasks":48,"sources":{"LEO":190,"OPS":480},"by_week":{"2026-31":260,"2026-32":335,"2026-33":75},"weeks_active":3,"avg_per_week":223.3,"best_week":{"label":"32","points":335}},{"alias":"Konsultant","points":450,"tasks":39,"paid_tasks":39,"sources":{"LEO":390,"OPS":60},"by_week":{"2026-31":165,"2026-32":205,"2026-33":80},"weeks_active":3,"avg_per_week":150.0,"best_week":{"label":"32","points":205}},{"alias":"Assistant","points":405,"tasks":41,"paid_tasks":41,"sources":{"LEO":235,"OPS":170},"by_week":{"2026-31":90,"2026-32":250,"2026-33":65},"weeks_active":3,"avg_per_week":135.0,"best_week":{"label":"32","points":250}},{"alias":"SPA Support","points":350,"tasks":34,"paid_tasks":32,"sources":{"LEO":350,"OPS":0},"by_week":{"2026-31":160,"2026-32":190},"weeks_active":2,"avg_per_week":175.0,"best_week":{"label":"32","points":190}},{"alias":"Coordinator + Support","points":170,"tasks":8,"paid_tasks":8,"sources":{"LEO":170},"by_week":{"2026-31":50,"2026-32":120},"weeks_active":2,"avg_per_week":85.0,"best_week":{"label":"32","points":120}},{"alias":"TU Support","points":0,"tasks":0,"paid_tasks":0,"sources":{},"by_week":{},"weeks_active":0,"avg_per_week":0,"best_week":{"label":"","points":0}}],"weeks":[{"year":2026,"week":31,"points":725,"tasks":60,"by_alias":{"Coordinator + Support":50,"Assistant":90,"SPA Support":160,"Konsultant":165,"AI Support":260}},{"year":2026,"week":32,"points":1100,"tasks":92,"by_alias":{"AI Support":335,"SPA Support":190,"Konsultant":205,"Assistant":250,"Coordinator + Support":120}},{"year":2026,"week":33,"points":220,"tasks":19,"by_alias":{"Konsultant":80,"AI Support":75,"Assistant":65}}],"sources":{"LEO":{"points":1335,"tasks":124},"OPS":{"points":710,"tasks":47}},"points_scale":{"0":3,"5":61,"10":55,"20":37,"30":15}}</script>
+<script id="dash-data" type="application/json">{"generated_at":"2026-08-12T12:45:42Z","generated_day":"2026-08-12","source_rows":171,"anonymised":true,"counted_since":{"year":2026,"week":31},"period":{"from":"2026-07-27","to":"2026-08-12"},"totals":{"points":2045,"tasks":171,"paid_tasks":168,"people":6,"weeks":3,"avg_week":681.7},"people":[{"alias":"AI Support","points":670,"tasks":49,"paid_tasks":48,"sources":{"LEO":190,"OPS":480},"by_week":{"2026-31":260,"2026-32":335,"2026-33":75},"weeks_active":3,"avg_per_week":223.3,"best_week":{"label":"32","points":335}},{"alias":"Konsultant","points":450,"tasks":39,"paid_tasks":39,"sources":{"LEO":390,"OPS":60},"by_week":{"2026-31":165,"2026-32":205,"2026-33":80},"weeks_active":3,"avg_per_week":150.0,"best_week":{"label":"32","points":205}},{"alias":"Assistant","points":405,"tasks":41,"paid_tasks":41,"sources":{"LEO":235,"OPS":170},"by_week":{"2026-31":90,"2026-32":250,"2026-33":65},"weeks_active":3,"avg_per_week":135.0,"best_week":{"label":"32","points":250}},{"alias":"SPA Support","points":350,"tasks":34,"paid_tasks":32,"sources":{"LEO":350,"OPS":0},"by_week":{"2026-31":160,"2026-32":190},"weeks_active":2,"avg_per_week":175.0,"best_week":{"label":"32","points":190}},{"alias":"Coordinator + Support","points":170,"tasks":8,"paid_tasks":8,"sources":{"LEO":170},"by_week":{"2026-31":50,"2026-32":120},"weeks_active":2,"avg_per_week":85.0,"best_week":{"label":"32","points":120}},{"alias":"TU Support","points":0,"tasks":0,"paid_tasks":0,"sources":{},"by_week":{},"weeks_active":0,"avg_per_week":0,"best_week":{"label":"","points":0}}],"weeks":[{"year":2026,"week":31,"points":725,"tasks":60,"by_alias":{"Coordinator + Support":50,"Assistant":90,"SPA Support":160,"Konsultant":165,"AI Support":260}},{"year":2026,"week":32,"points":1100,"tasks":92,"by_alias":{"AI Support":335,"SPA Support":190,"Konsultant":205,"Assistant":250,"Coordinator + Support":120}},{"year":2026,"week":33,"points":220,"tasks":19,"by_alias":{"Konsultant":80,"AI Support":75,"Assistant":65}}],"sources":{"LEO":{"points":1335,"tasks":124},"OPS":{"points":710,"tasks":47}},"points_scale":{"0":3,"5":61,"10":55,"20":37,"30":15}}</script>
 <script>
 (function () {
   "use strict";
   const D = JSON.parse(document.getElementById("dash-data").textContent);
-  const BLUE = getComputedStyle(document.documentElement).getPropertyValue("--blue").trim() || "#4772FA";
-  const AMBER = getComputedStyle(document.documentElement).getPropertyValue("--amber").trim() || "#FFA000";
+  // Цвета читаются ПРИ КАЖДОЙ отрисовке, а не один раз: тёмный набор задаёт другие значения тех
+  // же токенов, а цвет в SVG живёт атрибутом и сам не обновится. Без этого страница, открытая в
+  // светлой теме и переключённая в тёмную, осталась бы с прежними заливками.
+  const token = (name, fallback) =>
+    getComputedStyle(document.documentElement).getPropertyValue(name).trim() || fallback;
+  let BLUE, BLUE_STRONG, AMBER;
   const tip = document.getElementById("tip");
 
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+  /* ── Цвет текста НА ЦВЕТНОЙ ПОДЛОЖКЕ — считаем, а не выбираем на глаз ──────────
+     Правило (владелец 12.08.2026, DESIGN_SYSTEM.md): тёмная подложка -> светлый текст,
+     светлая -> тёмный. Прибитый гвоздями белый держался ровно до первой янтарной полосы:
+     белым по #FFA000 подпись «OPS 35%» практически исчезала. Считаем по яркости, потому что
+     подложка приходит из CSS-переменных и в тёмной теме ДРУГАЯ (--amber там ещё светлее). */
+  const _lum = (hex) => {
+    const h = String(hex).trim().replace("#", "");
+    const full = h.length === 3 ? h.split("").map((c) => c + c).join("") : h;
+    const ch = [0, 2, 4].map((i) => {
+      const v = parseInt(full.slice(i, i + 2), 16) / 255;
+      return v <= 0.03928 ? v / 12.92 : Math.pow((v + 0.055) / 1.055, 2.4);
+    });
+    return 0.2126 * ch[0] + 0.7152 * ch[1] + 0.0722 * ch[2];
+  };
+  const _ratio = (a, b) => (Math.max(a, b) + 0.05) / (Math.min(a, b) + 0.05);
+  // Берём тот из двух чернил, который даёт БОЛЬШИЙ контраст, а не тот, что «обычно белый».
+  const inkOn = (bg) => {
+    const l = _lum(bg);
+    return _ratio(l, _lum("#FFFFFF")) >= _ratio(l, _lum("#1F2329")) ? "#FFFFFF" : "#1F2329";
+  };
+  // Бывает, что читаемого варианта НЕТ вовсе: у фирменного синего лучший контраст 4.15 при
+  // норме 4.5 для мелкого текста. Тогда подпись не «делается посветлее», а не рисуется внутри
+  // полосы совсем — то же самое пишет легенда под графиком, и там фон карточки.
+  const inkFits = (bg) => _ratio(_lum(inkOn(bg)), _lum(bg)) >= 4.5;
   const num = (n) => String(n).replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  // Цвет-переменную (`var(--blue)`) SVG-АТРИБУТ не понимает — она работает только как стиль.
+  // Поэтому заливки и обводки, заданные переменной, уходят в style: тогда тему применяет сам
+  // браузер, и перерисовка при её смене не нужна вовсе (событие `change` у matchMedia в части
+  // окружений не приходит — проверено 12.08.2026, на него полагаться нельзя).
   const svgEl = (name, attrs) => {
     const el = document.createElementNS("http://www.w3.org/2000/svg", name);
-    for (const k in attrs) el.setAttribute(k, attrs[k]);
+    for (const k in attrs) {
+      const v = String(attrs[k]);
+      if ((k === "fill" || k === "stroke") && v.indexOf("var(") === 0) el.style[k] = v;
+      else el.setAttribute(k, attrs[k]);
+    }
     return el;
   };
   // Один тултип на всю страницу: подсказка нужна на любом столбике и любой клетке, а сотня
@@ -222,7 +259,7 @@
   ).join("");
 
   /* ── столбики: баллы по неделям ───────────────────────────────────── */
-  (function weeksChart() {
+  function weeksChart() {
     const box = document.getElementById("weeksChart");
     const weeks = D.weeks || [];
     if (!weeks.length) { box.textContent = "Данных пока нет."; return; }
@@ -246,13 +283,13 @@
     if (avg > 0) {                                        // ориентир «обычная неделя»
       const y = padT + innerH - (avg / max) * innerH;
       svg.appendChild(svgEl("line", { x1: padL, x2: W - padR, y1: y, y2: y,
-        stroke: AMBER, "stroke-width": 2, "stroke-dasharray": "5 5" }));
+        stroke: "var(--amber)", "stroke-width": 2, "stroke-dasharray": "5 5" }));
     }
     weeks.forEach((w, i) => {
       const h = Math.max(2, (w.points / max) * innerH);
       const x = padL + i * step + (step - barW) / 2;
       const y = padT + innerH - h;
-      const r = svgEl("rect", { x: x, y: y, width: barW, height: h, rx: 4, fill: BLUE, class: "bar" });
+      const r = svgEl("rect", { x: x, y: y, width: barW, height: h, rx: 4, fill: "var(--blue)", class: "bar" });
       hoverable(r, "Неделя " + w.week + ": " + w.points + " баллов, задач " + w.tasks);
       svg.appendChild(r);
       const lab = svgEl("text", { x: x + barW / 2, y: H - padB + 16, class: "ax", "text-anchor": "middle" });
@@ -263,10 +300,10 @@
     cap.textContent = "номер недели";
     svg.appendChild(cap);
     box.appendChild(svg);
-  })();
+  }
 
   /* ── горизонтальные бары: люди ────────────────────────────────────── */
-  (function peopleChart() {
+  function peopleChart() {
     const box = document.getElementById("peopleChart");
     const people = D.people || [];
     if (!people.length) { box.textContent = "Данных пока нет."; return; }
@@ -285,7 +322,7 @@
       const name = svgEl("text", { x: 0, y: y + h - 4, class: "ax" });
       name.textContent = p.alias;
       svg.appendChild(name);
-      const r = svgEl("rect", { x: padL, y: y, width: w, height: h, rx: 4, fill: BLUE, class: "bar" });
+      const r = svgEl("rect", { x: padL, y: y, width: w, height: h, rx: 4, fill: "var(--blue)", class: "bar" });
       hoverable(r, p.alias + ": " + p.points + " баллов, задач " + p.tasks +
         ", активных недель " + p.weeks_active + ", в среднем " + p.avg_per_week + " за неделю");
       svg.appendChild(r);
@@ -294,10 +331,10 @@
       svg.appendChild(val);
     });
     box.appendChild(svg);
-  })();
+  }
 
   /* ── тепловая карта: неделя × человек ─────────────────────────────── */
-  (function heatChart() {
+  function heatChart() {
     const box = document.getElementById("heatChart");
     const weeks = D.weeks || [], people = D.people || [];
     if (!weeks.length || !people.length) { box.textContent = "Данных пока нет."; return; }
@@ -331,7 +368,7 @@
         const r = svgEl("rect", {
           x: padL + x * (cell + gap), y: padT + y * (cell + gap),
           width: cell, height: cell, rx: 6,
-          fill: v ? BLUE : "transparent", "fill-opacity": v ? alpha.toFixed(3) : 1,
+          fill: v ? "var(--blue)" : "transparent", "fill-opacity": v ? alpha.toFixed(3) : 1,
           stroke: v ? "none" : "var(--line)", "stroke-width": 1
         });
         hoverable(r, p.alias + ", неделя " + w.week + ": " + v + " баллов");
@@ -339,16 +376,21 @@
       });
     });
     box.appendChild(svg);
-  })();
+  }
 
   /* ── источники баллов ─────────────────────────────────────────────── */
-  (function srcChart() {
+  function srcChart() {
     const box = document.getElementById("srcChart");
     const src = D.sources || {};
     const keys = Object.keys(src).filter((k) => src[k].points > 0);
     if (!keys.length) { box.textContent = "Данных пока нет."; return; }
     const total = keys.reduce((s, k) => s + src[k].points, 0) || 1;
-    const colors = { LEO: BLUE, OPS: AMBER };             // цвет закреплён за смыслом, не за местом
+    // Цвет закреплён за смыслом, не за местом. Для LEO берём ТЁМНЫЙ оттенок того же фирменного
+    // синего (--blue-strong): на обычном --blue лучший контраст подписи 4.15 при норме 4.5, и
+    // подпись пришлось бы убрать. Оттенок бренда сохранён, читаемость получена.
+    const colors = { LEO: "var(--blue-strong)", OPS: "var(--amber)" };
+    // Для расчёта чернил нужна не переменная, а её ЗНАЧЕНИЕ в текущей теме.
+    const colorValue = { LEO: BLUE_STRONG, OPS: AMBER };
 
     const W = 920, H = 46;
     const svg = svgEl("svg", { viewBox: "0 0 " + W + " " + H, role: "img",
@@ -361,22 +403,27 @@
       hoverable(seg, k + ": " + src[k].points + " баллов (" +
         Math.round((src[k].points / total) * 100) + "%), задач " + src[k].tasks);
       svg.appendChild(seg);
-      if (w > 60) {                                       // подпись внутри — только если влезает
-        const lab = svgEl("text", { x: x + 10, y: 24, class: "ax", fill: "#fff", "font-weight": "700" });
+      const bg = colorValue[k] || BLUE;     // именно значение: по переменной яркость не посчитать
+      if (w > 60 && inkFits(bg)) {          // подпись внутри — если влезает И читается
+        const lab = svgEl("text", { x: x + 10, y: 24, class: "ax",
+          fill: inkOn(bg), "font-weight": "700" });
         lab.textContent = k + " " + Math.round((src[k].points / total) * 100) + "%";
         svg.appendChild(lab);
       }
       x += w;
     });
     box.appendChild(svg);
+    // Процент в легенде стоит ВСЕГДА: внутри полосы подпись появляется не всегда (см. inkFits),
+    // и без легенды доля просто исчезла бы со страницы.
     box.insertAdjacentHTML("beforeend", '<div class="legend">' + keys.map((k) =>
-      '<span><i class="sw" style="background:' + (colors[k] || BLUE) + '"></i>' +
-      esc(k) + " — " + esc(num(src[k].points)) + " баллов, задач " + esc(num(src[k].tasks)) +
+      '<span><i class="sw" style="background:' + (colors[k] || "var(--blue)") + '"></i>' +
+      esc(k) + " — " + Math.round((src[k].points / total) * 100) + "%, " +
+      esc(num(src[k].points)) + " баллов, задач " + esc(num(src[k].tasks)) +
       "</span>").join("") + "</div>");
-  })();
+  }
 
   /* ── таблицы ──────────────────────────────────────────────────────── */
-  (function tables() {
+  function tables() {
     const people = D.people || [], weeks = D.weeks || [];
     document.getElementById("peopleTable").innerHTML =
       "<thead><tr><th>Кто</th><th>Баллы</th><th>Задачи</th><th>С баллами</th>" +
@@ -396,7 +443,28 @@
         "<tr><td>№" + esc(w.week) + "</td>" +
         people.map((p) => "<td>" + esc(w.by_alias[p.alias] || 0) + "</td>").join("") +
         "<td><b>" + esc(num(w.points)) + "</b></td></tr>").join("") + "</tbody>";
-  })();
+  }
+
+  /* ── отрисовка и смена темы ───────────────────────────────────────────
+     Перерисовываем ВСЁ при смене системной темы: цвета живут атрибутами SVG, сами они не
+     обновятся, и страница осталась бы с заливками прежней темы — а правило контраста требует
+     читаемости в ОБЕИХ. */
+  function drawAll() {
+    BLUE = token("--blue", "#4772FA");
+    BLUE_STRONG = token("--blue-strong", "#355EEA");
+    AMBER = token("--amber", "#FFA000");
+    ["weeksChart", "peopleChart", "heatChart", "srcChart"].forEach((id) => {
+      document.getElementById(id).innerHTML = "";
+    });
+    weeksChart();
+    peopleChart();
+    heatChart();
+    srcChart();
+    tables();
+  }
+
+  drawAll();
+  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", drawAll);
 })();
 </script>
 </body>
