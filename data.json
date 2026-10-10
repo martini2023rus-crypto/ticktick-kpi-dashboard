@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-09T22:30:02Z",
-  "generated_day": "2026-10-09",
-  "source_rows": 942,
+  "generated_at": "2026-10-10T22:30:02Z",
+  "generated_day": "2026-10-10",
+  "source_rows": 946,
   "anonymised": true,
   "counted_since": {
     "year": 2026,
@@ -9,25 +9,25 @@
   },
   "period": {
     "from": "2026-07-27",
-    "to": "2026-10-09"
+    "to": "2026-10-10"
   },
   "totals": {
-    "points": 11525,
-    "tasks": 942,
-    "paid_tasks": 934,
+    "points": 11625,
+    "tasks": 946,
+    "paid_tasks": 938,
     "people": 6,
     "weeks": 11,
-    "avg_week": 1047.7
+    "avg_week": 1056.8
   },
   "people": [
     {
       "alias": "AI Support",
-      "points": 3285,
-      "tasks": 231,
-      "paid_tasks": 226,
+      "points": 3375,
+      "tasks": 234,
+      "paid_tasks": 229,
       "sources": {
         "LEO": 1120,
-        "OPS": 2165
+        "OPS": 2255
       },
       "by_week": {
         "2026-31": 260,
@@ -39,10 +39,10 @@
         "2026-38": 360,
         "2026-39": 360,
         "2026-40": 380,
-        "2026-41": 265
+        "2026-41": 355
       },
       "weeks_active": 10,
-      "avg_per_week": 328.5,
+      "avg_per_week": 337.5,
       "best_week": {
         "label": "40",
         "points": 380
@@ -78,11 +78,11 @@
     },
     {
       "alias": "SPA Support",
-      "points": 1985,
-      "tasks": 198,
-      "paid_tasks": 195,
+      "points": 1995,
+      "tasks": 199,
+      "paid_tasks": 196,
       "sources": {
-        "LEO": 1380,
+        "LEO": 1390,
         "OPS": 605
       },
       "by_week": {
@@ -96,10 +96,10 @@
         "2026-38": 195,
         "2026-39": 305,
         "2026-40": 260,
-        "2026-41": 135
+        "2026-41": 145
       },
       "weeks_active": 11,
-      "avg_per_week": 180.5,
+      "avg_per_week": 181.4,
       "best_week": {
         "label": "39",
         "points": 305
@@ -330,34 +330,34 @@
     {
       "year": 2026,
       "week": 41,
-      "points": 1135,
-      "tasks": 99,
+      "points": 1235,
+      "tasks": 103,
       "by_alias": {
         "Konsultant": 250,
-        "AI Support": 265,
+        "AI Support": 355,
         "Assistant": 250,
         "TU Support": 205,
-        "SPA Support": 135,
+        "SPA Support": 145,
         "Coordinator + Support": 30
       }
     }
   ],
   "sources": {
     "LEO": {
-      "points": 6985,
-      "tasks": 609
+      "points": 6995,
+      "tasks": 610
     },
     "OPS": {
-      "points": 4540,
-      "tasks": 333
+      "points": 4630,
+      "tasks": 336
     }
   },
   "points_scale": {
     "0": 8,
     "5": 355,
-    "10": 298,
+    "10": 299,
     "20": 171,
-    "30": 107,
+    "30": 110,
     "35": 1,
     "45": 1,
     "60": 1
