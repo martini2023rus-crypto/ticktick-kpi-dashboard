@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-14T22:30:02Z",
-  "generated_day": "2026-10-14",
-  "source_rows": 1005,
+  "generated_at": "2026-10-15T22:30:02Z",
+  "generated_day": "2026-10-15",
+  "source_rows": 1018,
   "anonymised": true,
   "counted_since": {
     "year": 2026,
@@ -9,24 +9,24 @@
   },
   "period": {
     "from": "2026-07-27",
-    "to": "2026-10-13"
+    "to": "2026-10-15"
   },
   "totals": {
-    "points": 12405,
-    "tasks": 1005,
-    "paid_tasks": 995,
+    "points": 12590,
+    "tasks": 1018,
+    "paid_tasks": 1008,
     "people": 6,
     "weeks": 12,
-    "avg_week": 1033.8
+    "avg_week": 1049.2
   },
   "people": [
     {
       "alias": "AI Support",
-      "points": 3570,
-      "tasks": 245,
-      "paid_tasks": 239,
+      "points": 3585,
+      "tasks": 247,
+      "paid_tasks": 241,
       "sources": {
-        "LEO": 1125,
+        "LEO": 1140,
         "OPS": 2445
       },
       "by_week": {
@@ -40,10 +40,10 @@
         "2026-39": 360,
         "2026-40": 380,
         "2026-41": 390,
-        "2026-42": 160
+        "2026-42": 175
       },
       "weeks_active": 11,
-      "avg_per_week": 324.5,
+      "avg_per_week": 325.9,
       "best_week": {
         "label": "41",
         "points": 390
@@ -51,12 +51,12 @@
     },
     {
       "alias": "Konsultant",
-      "points": 2375,
-      "tasks": 186,
-      "paid_tasks": 186,
+      "points": 2450,
+      "tasks": 191,
+      "paid_tasks": 191,
       "sources": {
-        "LEO": 1575,
-        "OPS": 800
+        "LEO": 1625,
+        "OPS": 825
       },
       "by_week": {
         "2026-31": 165,
@@ -69,10 +69,10 @@
         "2026-39": 310,
         "2026-40": 230,
         "2026-41": 320,
-        "2026-42": 65
+        "2026-42": 140
       },
       "weeks_active": 11,
-      "avg_per_week": 215.9,
+      "avg_per_week": 222.7,
       "best_week": {
         "label": "41",
         "points": 320
@@ -80,12 +80,12 @@
     },
     {
       "alias": "SPA Support",
-      "points": 2085,
-      "tasks": 207,
-      "paid_tasks": 204,
+      "points": 2135,
+      "tasks": 209,
+      "paid_tasks": 206,
       "sources": {
-        "LEO": 1475,
-        "OPS": 610
+        "LEO": 1505,
+        "OPS": 630
       },
       "by_week": {
         "2026-31": 160,
@@ -99,10 +99,10 @@
         "2026-39": 305,
         "2026-40": 260,
         "2026-41": 215,
-        "2026-42": 20
+        "2026-42": 70
       },
       "weeks_active": 12,
-      "avg_per_week": 173.8,
+      "avg_per_week": 177.9,
       "best_week": {
         "label": "39",
         "points": 305
@@ -110,11 +110,11 @@
     },
     {
       "alias": "Assistant",
-      "points": 1995,
-      "tasks": 153,
-      "paid_tasks": 152,
+      "points": 2040,
+      "tasks": 157,
+      "paid_tasks": 156,
       "sources": {
-        "LEO": 1085,
+        "LEO": 1130,
         "OPS": 910
       },
       "by_week": {
@@ -129,10 +129,10 @@
         "2026-39": 155,
         "2026-40": 180,
         "2026-41": 315,
-        "2026-42": 5
+        "2026-42": 50
       },
       "weeks_active": 12,
-      "avg_per_week": 166.2,
+      "avg_per_week": 170.0,
       "best_week": {
         "label": "41",
         "points": 315
@@ -349,33 +349,33 @@
     {
       "year": 2026,
       "week": 42,
-      "points": 380,
-      "tasks": 34,
+      "points": 565,
+      "tasks": 47,
       "by_alias": {
-        "Konsultant": 65,
-        "AI Support": 160,
-        "Assistant": 5,
-        "SPA Support": 20,
+        "Konsultant": 140,
+        "AI Support": 175,
+        "Assistant": 50,
+        "SPA Support": 70,
         "TU Support": 130
       }
     }
   ],
   "sources": {
     "LEO": {
-      "points": 7345,
-      "tasks": 644
+      "points": 7485,
+      "tasks": 654
     },
     "OPS": {
-      "points": 5060,
-      "tasks": 361
+      "points": 5105,
+      "tasks": 364
     }
   },
   "points_scale": {
     "0": 10,
-    "5": 383,
-    "10": 308,
-    "20": 179,
-    "30": 121,
+    "5": 386,
+    "10": 312,
+    "20": 184,
+    "30": 122,
     "35": 1,
     "45": 1,
     "60": 2
