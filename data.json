@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-24T22:30:03Z",
-  "generated_day": "2026-10-24",
-  "source_rows": 1173,
+  "generated_at": "2026-10-25T22:30:02Z",
+  "generated_day": "2026-10-25",
+  "source_rows": 1174,
   "anonymised": true,
   "counted_since": {
     "year": 2026,
@@ -9,15 +9,15 @@
   },
   "period": {
     "from": "2026-07-27",
-    "to": "2026-10-24"
+    "to": "2026-10-25"
   },
   "totals": {
-    "points": 14890,
-    "tasks": 1173,
-    "paid_tasks": 1161,
+    "points": 14900,
+    "tasks": 1174,
+    "paid_tasks": 1162,
     "people": 6,
     "weeks": 13,
-    "avg_week": 1145.4
+    "avg_week": 1146.2
   },
   "people": [
     {
@@ -113,12 +113,12 @@
     },
     {
       "alias": "Assistant",
-      "points": 2370,
-      "tasks": 178,
-      "paid_tasks": 177,
+      "points": 2380,
+      "tasks": 179,
+      "paid_tasks": 178,
       "sources": {
         "LEO": 1270,
-        "OPS": 1100
+        "OPS": 1110
       },
       "by_week": {
         "2026-31": 90,
@@ -133,10 +133,10 @@
         "2026-40": 180,
         "2026-41": 315,
         "2026-42": 260,
-        "2026-43": 120
+        "2026-43": 130
       },
       "weeks_active": 13,
-      "avg_per_week": 182.3,
+      "avg_per_week": 183.1,
       "best_week": {
         "label": "41",
         "points": 315
@@ -370,10 +370,10 @@
     {
       "year": 2026,
       "week": 43,
-      "points": 795,
-      "tasks": 55,
+      "points": 805,
+      "tasks": 56,
       "by_alias": {
-        "Assistant": 120,
+        "Assistant": 130,
         "AI Support": 230,
         "Konsultant": 165,
         "SPA Support": 165,
@@ -388,14 +388,14 @@
       "tasks": 739
     },
     "OPS": {
-      "points": 6265,
-      "tasks": 434
+      "points": 6275,
+      "tasks": 435
     }
   },
   "points_scale": {
     "0": 12,
     "5": 441,
-    "10": 344,
+    "10": 345,
     "20": 216,
     "30": 154,
     "35": 1,
